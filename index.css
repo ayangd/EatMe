@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-wrapper {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(37deg, rgb(158, 158, 57), rgb(90, 128, 0));
+    padding: 1em;
+}
+
+.top-wrapper h1, p {
+    text-shadow: 1px 1px 5px black;
+}
