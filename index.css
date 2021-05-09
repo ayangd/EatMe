@@ -18,7 +18,12 @@ li{
     float: left;
     padding: 30px 20px;
 }
-
+.Left-list{
+    float: left;
+}
+.Left-list li{
+    float: left;
+}
 body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
