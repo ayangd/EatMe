@@ -168,8 +168,14 @@ body {
 .menu-wrapper{
     text-align: center;
 }
+
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .menu{
-    float: left;
     width: 25%;   
 }
 
