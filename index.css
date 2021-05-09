@@ -1,3 +1,24 @@
+header{
+    height: 90px;
+    color:white;
+    background-color: greenyellow;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.Header-Left{
+    float: left;
+}
+.Header-List{
+    float: right;
+}
+.Header-List li{
+    float: left;
+    padding: 30px 20px;
+}
+
 body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
