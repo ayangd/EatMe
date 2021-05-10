@@ -1,28 +1,26 @@
-header{
+header {
     height: 90px;
-    color:white;
+    color:black;
     background-color: greenyellow;
 }
+
+header div, header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header .container {
+    justify-content: space-between;
+}
+
+header li {
+    padding: 20px 30px;
+}
+
 li{
     text-decoration: none;
     list-style: none;
 
-}
-.Header-Left{
-    float: left;
-}
-.Header-List{
-    float: right;
-}
-.Header-List li{
-    float: left;
-    padding: 30px 20px;
-}
-.Left-list{
-    float: left;
-}
-.Left-list li{
-    float: left;
 }
 body {
     margin: 0;
